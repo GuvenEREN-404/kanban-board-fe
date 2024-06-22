@@ -5,7 +5,7 @@ export type TaskT = {
     color:string;
 };
 
-type Column = {
+export type Column = {
 	name: string;
 	items: TaskT[];
 };
